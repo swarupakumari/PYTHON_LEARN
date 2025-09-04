@@ -81,3 +81,14 @@ else:
 # Supports break, continue, else.
 
 # Use while True for infinite loop.
+
+
+# n a do…while loop, the body always runs at least once, then checks the condition.
+
+#  Example: Print numbers 1–5 with do…while style
+# i = 1
+# while True:
+#     print(i)
+#     i += 1
+#     if not (i <= 5):   # condition check at end
+#         break
