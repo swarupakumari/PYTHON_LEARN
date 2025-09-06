@@ -54,3 +54,22 @@ print(my_tuple[-1])       # Access last element → True
 
 # ✨ Quick Trick to Remember:
 # 👉 List = Flexible (mutable), Tuple = Fixed (immutable).
+
+
+
+# t= (5, 2, 8, 5, 1)
+
+# print(len(t))        # 5
+# print(max(t))        # 8
+# print(min(t))        # 1
+# print(sum(t))        # 21
+# print(sorted(t))     # [1, 2, 5, 5, 8]
+# print(t.count(5))    # 2
+# print(t.index(8))    # 2
+# 🔹 Interview Quick Notes
+# Only 2 tuple methods: count() and index().
+
+# Everything else (len, max, min, sum, sorted) are built-in functions.
+
+# Tuples are immutable → so no append(), remove(), or pop() like lists.
+
