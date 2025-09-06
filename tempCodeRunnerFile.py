@@ -1,7 +1,2 @@
-def factorial(n):
-    if n == 0 or n == 1:   # Base case
-        return 1
-    else:
-        return n * factorial(n - 1)  # Recursive case
-
-print(factorial(5))  # 120
+student = {"name": "Swarupa", "age": 21, "course": "Python"}
+print(student["name"])  # Swarupa
