@@ -26,9 +26,9 @@ class NegativeNumberError(Exception):
         super().__init__(f"Negative value not allowed: {value}")
 
 # # Usage
-# num = -5
-# if num < 0:
-#     raise NegativeNumberError(num)
+num = -5
+if num < 0:
+    raise NegativeNumberError(num)
 
 
 # Output:
