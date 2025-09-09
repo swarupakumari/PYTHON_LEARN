@@ -5,9 +5,12 @@
 
 # Returns a map object (convert using list()).
 
-# nums = [1, 2, 3, 4]
-# squares = list(map(lambda x: x**2, nums))
-# print(squares)  # [1, 4, 9, 16]
+from functools import reduce
+
+
+nums = [1, 2, 3, 4]
+squares = list(map(lambda x: x**2, nums))
+print(squares)  # [1, 4, 9, 16]
 
 # ✅ 2. filter(function, iterable)
 
@@ -15,9 +18,9 @@
 
 # Returns a filter object (convert using list()).
 
-# nums = [1, 2, 3, 4, 5]
-# evens = list(filter(lambda x: x % 2 == 0, nums))
-# print(evens)  # [2, 4]
+nums = [1, 2, 3, 4, 5]
+evens = list(filter(lambda x: x % 2 == 0, nums))
+print(evens)  # [2, 4]
 
 # ✅ 3. reduce(function, iterable)
 
@@ -27,9 +30,9 @@
 
 # from functools import reduce
 
-# nums = [1, 2, 3, 4]
-# product = reduce(lambda x, y: x * y, nums)
-# print(product)  # 24
+nums = [1, 2, 3, 4]
+product = reduce(lambda x, y: x * y, nums)
+print(product)  # 24
 
 # 📝 Quick Table
 # Function	Purpose	Example	Output
