@@ -1,2 +1,2 @@
-student = {"name": "Swarupa", "age": 21, "course": "Python"}
-print(student["name"])  # Swarupa
+add = lambda a, b: a + b
+print(add(3, 4))   # Output: 7
