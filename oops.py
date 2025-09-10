@@ -12,6 +12,26 @@
 
 # ✅ Example: Class and Object in Python
 # Defining a class
+class Person:
+    name="Swarupa"
+    occupation="SDE"
+    networth="$10"
+
+a=Person()
+a.name="Rupa"
+print(a.name)    
+
+
+
+
+
+
+
+
+
+
+
+
 class Student:
     # Constructor (called automatically when object is created)
     def __init__(self, name, roll):
