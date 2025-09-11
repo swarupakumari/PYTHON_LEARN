@@ -16,6 +16,8 @@ class Person:
     name="Swarupa"
     occupation="SDE"
     networth="$10"
+    def info(self):
+        print(f"{self.name} is a {self.occupation}")
 
 a=Person()
 a.name="Rupa"
