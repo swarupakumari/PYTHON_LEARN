@@ -59,3 +59,5 @@ print(obj._Student__name)   # ✅ Access using name mangling
 # Public	var	Anywhere
 # Protected	_var	Class + Subclass (convention)
 # Private	__var	Only inside class (via name mangling outside)
+
+#we use everything as public but for private we use name mangling
